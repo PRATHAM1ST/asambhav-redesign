@@ -371,6 +371,10 @@ section#process .progress + .image {
 	overflow: hidden;
 }
 
+section#process .flex-col{
+	gap: var(--section-offset)
+}
+
 section form {
 	width: 100%;
 	position: relative;
