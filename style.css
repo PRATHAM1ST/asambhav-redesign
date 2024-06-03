@@ -36,11 +36,11 @@
 	--section-padding-y: 50px;
 	--body-section-grid-offset: 25px;
 
-	--primary-bg-linear-gradient: linear-gradient(45deg, #fff 100%, #fff 0%);
+	--primary-bg-linear-gradient: linear-gradient(90deg, #fff, #e4e4e4);
 	--secondary-bg-linear-gradient: linear-gradient(
-		45deg,
-		#e4e4e4 100%,
-		#fff 100%
+		90deg,
+		#e4e4e4 ,
+		#fff
 	);
 	--testimonials-bg-linear-gradient: linear-gradient(
 		to bottom,
@@ -210,6 +210,7 @@ section {
 	grid-template-columns: 1fr 1fr;
 	gap: var(--grid-offset);
 	padding: var(--section-padding-y) var(--section-padding-x);
+	/* background: linear-gradient(45deg, #ffffff, #ffffff00); */
 	background: var(--primary-bg-linear-gradient);
 	border-radius: var(--border-radius);
 	background-clip: padding-box;
